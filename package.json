@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "og": "bun scripts/generate-og.tsx",
+    "build": "bun run og && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.2.2",
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
@@ -32,6 +34,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.4.0",
+    "satori": "^0.26.0",
     "tailwindcss": "^4.2.2",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.0",
