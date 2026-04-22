@@ -1,10 +1,12 @@
+<p align="center">
+  <img src="./public/og.png" alt="passgen" width="600" />
+</p>
+
 <div align="center">
 
 # Password Generator
 
 Generate cryptographically secure passwords with custom length and character types, right in your browser — free and open source
-
-![og](public/og.png)
 
 </div>
 
